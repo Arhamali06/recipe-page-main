@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Project Screenshot](Screenshot 2026-07-07 213704.png)
+![Project Screenshot](Screenshot.png)
 
 ### Links
 
