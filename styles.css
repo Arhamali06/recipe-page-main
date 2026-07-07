@@ -1,0 +1,105 @@
+body{
+    display:flex;
+    justify-content:center;
+    background:hsl(30,54%,90%);
+    padding:50px 0;
+}
+
+.container{
+    width:600px;
+    background:white;
+    border-radius:15px;
+}
+
+.container img{
+    display:block;
+    width:90%;
+    margin:25px auto;
+    border-radius:10px;
+}
+
+.content{
+    padding:0 30px 30px;
+}
+
+.time{
+    padding:0 20px 5px;
+    width:500px;
+    background-color: rgb(255, 238, 241);
+    margin:0 auto;
+    border-radius:10px;
+}
+
+.time h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800;
+    color:hsl(332, 51%, 32%);
+    padding:2%;
+}
+.time li{
+    padding:0 5px 10px;
+}
+
+.ingredients{
+    padding: 0 20px 5px;
+    margin:0 auto;
+}
+.ingredients h2{
+    color:hsl(14, 45%, 36%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800;
+}
+.ingredients li{
+    padding:0 5px 10px;
+}
+
+.instructions{
+    padding: 0 20px 5px;
+    margin:0 auto;
+}
+.instructions h1{
+    color:hsl(14, 45%, 36%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800;
+}
+.instructions ol li{
+    padding:0 5px 10px;
+    color:hsl(30, 10%, 34%);
+}
+.instructions ol li::marker{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800;
+    color:hsl(14, 45%, 36%);
+}
+
+.nutrition{
+    padding: 0 20px 5px;
+}
+.nutrition h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight:800;
+        color:hsl(14, 45%, 36%);
+}
+.nutrition p{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    font-family:Arial, Helvetica, sans-serif;
+    color:hsl(30, 10%, 34%);
+    text-align: left;
+    padding: 10px 30px;
+    border-bottom: 0.5px solid hsl(24, 5%, 18%);
+}
+
+td {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+    color:hsl(14, 45%, 36%);
+    padding: 15px 30px;
+    border-bottom: 0.5px solid hsl(24, 5%, 18%);
+}
